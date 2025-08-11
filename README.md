@@ -185,7 +185,7 @@ Please do not disturb the admin unless you have a special need. Thank you!
 ---
 
 💖 **Thank You For Choosing 𝗦𝗵𝗮𝗵𝗮𝗱𝗮𝘁 𝗖𝗵𝗮𝘁 𝗕𝗼𝘁!**  
-🗓️ *Release Date:* `10/08/2025 at 11:00`  
+🗓️ *Release Date:* `11/08/2025 at 02:00`  
 ⭐ **Please don't forget to give a star after forking! It really helps!**
 
 ---
@@ -202,5 +202,4 @@ Please do not disturb the admin unless you have a special need. Thank you!
   <a href="https://youtube.com/@cyberbotcommunity"><img src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="YouTube"></a>
 </p>
 
-**I hope you enjoy my fork! Thank you for supporting the cyber chat bot community!** 🌺# shahadatproject-
-# SHAHADAT-CHAT-BOT
+**I hope you enjoy my fork! Thank you for supporting the cyber chat bot community!**
