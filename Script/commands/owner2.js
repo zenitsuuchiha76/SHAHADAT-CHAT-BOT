@@ -5,7 +5,7 @@ module.exports.config = {
  name: "owner2",
  version: "1.0.1",
  hasPermssion: 0,
- credits: "Shahadat SA HU",
+ credits: "Shahadat SAHU",
  description: "Display bot owner's information",
  commandCategory: "Info",
  usages: "",
@@ -18,7 +18,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function ({ api, event }) {
- const imageUrl = "https://graph.facebook.com/61575698041722/picture?height=720&width=720&access_token=6628568379|c1e620fa708a1d5696fb991c1bde5662";
+ const imageUrl = "https://graph.facebook.com/100001039692046/picture?height=720&width=720&access_token=6628568379|c1e620fa708a1d5696fb991c1bde5662";
  const path = __dirname + "/cache/owner.png";
 
  request(imageUrl)
