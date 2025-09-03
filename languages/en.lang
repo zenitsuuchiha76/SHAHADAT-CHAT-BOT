@@ -81,7 +81,7 @@ users.needObject=Have to be an Object
 
 includes/handle/handleCommand.js
 
-handleCommand.userBanned=বক্স এ বেশি আবলামি করার কারণে তুমাকে ব্যান করা হয়েছে!!🚫
+handleCommand.userBanned=বক্স এ বেশি আবলামি করার কারণে তুমাকে ব্যান করা হয়েছে..!🚫
 handleCommand.threadBanned=Group Has Been Banned..!⛔️\nPlease Contact Owner SHAHADAT SAHU For Unban ⚠️
 handleCommand.commandNotExist=Assalamu Alaikum 🌸\n\nOops! The command you entered isn't valid ❌\n\nDid you mean ➤ %1 ?\n\nPlease check and try again 🕊️
 handleCommand.commandThreadBanned=Your thread is unable to use command "%1"
