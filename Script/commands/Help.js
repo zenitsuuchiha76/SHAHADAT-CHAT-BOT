@@ -6,7 +6,7 @@ module.exports.config = {
     name: "help",
     version: "2.0.0",
     hasPermssion: 0,
-    credits: "SHAHADAT SAHU",
+    credits: "GOJO ORUPE PIW PIW",
     description: "Shows all commands with details",
     commandCategory: "system",
     usages: "[command name/page number]",
@@ -32,7 +32,7 @@ module.exports.languages = {
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: %8
 ┃ 🤖 Bot Name: %9
-┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
+┃ 👑 Owner: 𝐆𝐎𝐉𝐎 𝐎𝐑𝐔𝐏𝐄 𝐏𝐈𝐖 𝐏𝐈𝐖
 ╰━━━━━━━━━━━━━━━━╯`,
         "helpList": "[ There are %1 commands. Use: \"%2help commandName\" to view more. ]",
         "user": "User",
@@ -43,10 +43,10 @@ module.exports.languages = {
 
 // 🔹 এখানে আপনার ফটো Imgur লিংক করে বসাবেন ✅
 const helpImages = [
-    "https://i.imgur.com/sxSn1K3.jpeg",
-    "https://i.imgur.com/8WvpgUL.jpeg",
-    "https://i.imgur.com/8WvpgUL.jpeg",
-    "https://i.imgur.com/sxSn1K3.jpeg"
+    "https://i.imgur.com/BgLpAFT.jpeg",
+    "https://i.imgur.com/zDRxC08.jpeg",
+    "https://i.imgur.com/zDRxC08.jpeg",
+    "https://i.imgur.com/tD4c0Wy.jpeg"
 ];
 
 
@@ -80,7 +80,7 @@ module.exports.handleEvent = function ({ api, event, getText }) {
         command.config.commandCategory || "Unknown",  
         command.config.cooldowns || 0,  
         prefix,  
-        global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+        global.config.BOTNAME || "𝐏𝐢𝐰 𝐏𝐢𝐰 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
     );  
 
     downloadImages(files => {  
@@ -110,7 +110,7 @@ module.exports.run = function ({ api, event, args, getText }) {
             command.config.commandCategory || "Unknown",  
             command.config.cooldowns || 0,  
             prefix,  
-            global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
+            global.config.BOTNAME || "𝐏𝐢𝐰 𝐏𝐢𝐰 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"  
         );  
 
         downloadImages(files => {  
@@ -143,8 +143,8 @@ module.exports.run = function ({ api, event, args, getText }) {
 ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
-┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
-┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
+┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐏𝐢𝐰 𝐏𝐢𝐰 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
+┃ 👑 Owner: 𝐆𝐎𝐉𝐎 𝐗 𝐙𝐄𝐍𝐈𝐓𝐒𝐔
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  
