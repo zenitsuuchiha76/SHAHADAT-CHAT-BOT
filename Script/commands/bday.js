@@ -14,7 +14,7 @@ module.exports.run = async ({ api, event }) => {
  const fs = global.nodemodule["fs-extra"];
  const path = __dirname + "/cache/1.png";
 
- const targetDate = new Date("December 16, 2025 00:00:00");
+ const targetDate = new Date("December 17, 2025 00:00:00");
  const now = new Date();
 
  const diffMs = targetDate - now;
@@ -25,7 +25,7 @@ module.exports.run = async ({ api, event }) => {
 
  if (diffDays === 1) {
  const tomorrowMessage =
-`👉Admin SHAHADAT SAHU এর জন্মদিন আগামীকাল!\n অবশেষে এডমিনের জন্মদিন ফাঁস হয়ে গেল!\n\n উইশ করতে ভুলবে না কিন্তু...🥰😘
+`👉Admin Gojo Orupe Piw Piw এর জন্মদিন আগামীকাল!\n অবশেষে এডমিনের জন্মদিন ফাঁস হয়ে গেল!\n\n উইশ করতে ভুলবে না কিন্তু...🥰😘
 `;
  return api.sendMessage(tomorrowMessage, event.threadID, event.messageID);
  }
@@ -33,7 +33,7 @@ module.exports.run = async ({ api, event }) => {
  if (diffDays === 0) {
  const happyBirthdayMessage = 
 `╔═══ 🎉 𝐇𝐀𝐏𝐏𝐘 𝐁𝐈𝐑𝐓𝐇𝐃𝐀𝐘 🎉 ════╗
-║ 𝐎𝐔𝐑 𝐁𝐎𝐒𝐒 - 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔 💖 
+║ 𝐎𝐔𝐑 𝐁𝐎𝐒𝐒 - 𝐆𝐎𝐉𝐎 𝐎𝐑𝐔𝐏𝐄 𝐏𝐈𝐖 𝐏𝐈𝐖 💖 
 ╟─────────────────
 ║ 🎂 Everyone Please Wish Him Today! 
 ║ 🥳 আজ আমাদের Boss এর জন্মদিন! 
@@ -41,14 +41,14 @@ module.exports.run = async ({ api, event }) => {
 ╟─────────────────
 ║ 📩 Connect With Him: 
 ║ ➤ 📘 Facebook : 
-║ www.facebook.com/61575698041722 
+║ www.facebook.com/100051168244116
 ║ ➤ 💬 Messenger : 
-║ m.me/61575698041722 
+║ m.me/100051168244116 
 ║ ➤ 📱 WhatsApp : 
 ║ https://wa.me/+8801882333052 
 ╟─────────────────
 ║ 🫶 উইশ করো, দোয়া করো?
-║ এবং ভালোবাসা জানাও প্রিয় বস সাহুকে! ❤️‍🩹 
+║ এবং ভালোবাসা জানাও প্রিয় বস গোজুকে! ❤️‍🩹 
 ╚═════════════════════════╝`;
  return api.sendMessage(happyBirthdayMessage, event.threadID, event.messageID);
  }
@@ -56,7 +56,7 @@ module.exports.run = async ({ api, event }) => {
  if (diffDays < 0) {
  const leakMessage =
 `╔═══════════════════╗
-║ 🎂 Admin SHAHADAT SAHU
+║ 🎂 Admin Gojo Orupe Piw Piw
 ║ এর জন্মদিন ফাঁস হয়ে গেছে ❤️‍🩹🤌
 ╚═══════════════════╝`;
  return api.sendMessage(leakMessage, event.threadID, event.messageID);
@@ -64,7 +64,7 @@ module.exports.run = async ({ api, event }) => {
 
  const countdownMessage = 
 `╔═══════════════════╗
-║ 🎂 Admin SHAHADAT SAHU
+║ 🎂 Admin Gojo Orupe Piw Piw
 ║ এর জন্মদিন ফাঁস হয়ে গেছে ❤️‍🩹🤌
 ║═══════════════════
 ║ 📅 Days : ${diffDays}
@@ -73,7 +73,7 @@ module.exports.run = async ({ api, event }) => {
 ║ ⏳ Seconds : ${diffSeconds}
 ╚════════════════════╝`;
 
- const url = `https://graph.facebook.com/61575698041722/picture?height=720&width=720`;
+ const url = `https://graph.facebook.com/100051168244116/picture?height=720&width=720`;
 
  try {
  const response = await axios({
